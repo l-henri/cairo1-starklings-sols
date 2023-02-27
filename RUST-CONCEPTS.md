@@ -260,7 +260,7 @@ impl fmt::Debug  for Point
 
 **Procedural macros** are a way for you to extend the Rust compiler's functionalities and provide plugins for the language. Each procedural macros is included in its own [crate](https://rustwiki.org/en/book/ch07-01-packages-and-crates.html). 
 
-In Cairo 1, we are concerned with procedural macros called "custom derive macro". I highly recommend reading up on them [here](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/procedural-macros.html). For now, just know that any time you create a vustom data structure, do derive the `copy` and `drop` traits for it to ensure smooth memory management. 
+In Cairo 1, we are concerned with procedural macros called "custom derive macro". I highly recommend reading up on them [here](https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/procedural-macros.html). For now, just know that any time you create a custom data structure, do derive the `copy` and `drop` traits for it to ensure smooth memory management. 
 
 ### 10. Generics 
 
